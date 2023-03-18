@@ -7,10 +7,12 @@ For each exercise, you will have to create a folder and in this folder, you will
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ruby Quest01	My First Script
-Submit directory	ex00
-Submit file	my_first_script.rb
-Description
+| Ruby Quest01	| My First Script |
+| ------------- | --------------- |
+| Submit directory	| ex00 |
+| Submit file	| my_first_script.rb |
+
+## Description
 Write your first script and have it print Hello World!.
 Create a file my_first_script.rb.
 Add a printing function (see tips)
