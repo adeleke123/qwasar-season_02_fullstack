@@ -13,20 +13,22 @@ For each exercise, you will have to create a folder and in this folder, you will
 | Submit file	| my_first_script.rb |
 
 ## Description
-Write your first script and have it print Hello World!.
-Create a file my_first_script.rb.
+Write your first script and have it print ```Hello World!```.
+Create a file ```my_first_script.rb```.
 Add a printing function (see tips)
 
-Example 00 (In Javascript)
-
+## Example 00 (In Javascript)
+```
 $>node my_first_script.js
 Hello World!
 $>
-Example 01 (In Python)
-
+```
+## Example 01 (In Python)
+```
 $>python my_first_script.py
 Hello World!
 $>
+```
 Example 02 (In Ruby)
 
 $>ruby my_first_script.rb
