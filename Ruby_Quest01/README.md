@@ -29,19 +29,22 @@ $>python my_first_script.py
 Hello World!
 $>
 ```
-Example 02 (In Ruby)
-
+## Example 02 (In Ruby)
+```
 $>ruby my_first_script.rb
 Hello World!
 $>
+```
 Tip
-(In Ruby)
-It will contain puts "Hello World!"
++ (In Ruby)
++ It will contain puts ```"Hello World!"```
 
-Ruby Quest01	My First Variable Integer
-Submit directory	ex01
-Submit file	my_first_variable_integer.rb
-Description
+| Ruby Quest01	| My First Variable Integer |
+| ------------- | ------------------------- |
+| Submit directory	| ex01 |
+| Submit file	| my_first_variable_integer.rb |
+
+## Description
 The first part of coding is to create a variable. Let's get started with an integer variable.
 What does integer variable mean?
 In most languages, you have types. A good example is that a letter is different from a number.
