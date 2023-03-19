@@ -92,10 +92,12 @@ Output: c
 
 Return Value: nil
 ```
-Ruby Quest01	My First Variable String
-Submit directory	ex03
-Submit file	my_first_variable_string.rb
-Description
+| Ruby Quest01	| My First Variable String |
+| ------------- | ------------------------ |
+| Submit directory	| ex03 |
+| Submit file	| my_first_variable_string.rb |
+
+## Description
 What is a string? Is it a word? How can a computer create a string?
 It could be defined by "multiple letters", which is translated to multiple "characters."
 Is it an array of characters? :-)
@@ -104,15 +106,17 @@ Replace/Complete the following code. Create a variable with (if needed) the righ
 (The XX is what you need to replace)
 
 Function prototype (ruby)
-
+```
 XX = "Learning is growing"
 puts(my_string)
-Example 00
-
+```
+## Example 00
+```
 Input: 
 Output: Learning is growing
 
 Return Value: nil
+```
 Ruby Quest01	My Multiple Variables Multiple Type
 Submit directory	ex04
 Submit file	my_multiple_variables_multiple_type.rb
