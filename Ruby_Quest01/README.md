@@ -69,25 +69,29 @@ Return Value: nil
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ruby Quest01	My First Variable Char
-Submit directory	ex02
-Submit file	my_first_variable_char.rb
-Description
+| Ruby Quest01	| My First Variable Char |
+| ------------- | ---------------------- |
+| Submit directory	| ex02 |
+| Submit file	| my_first_variable_char.rb |
+
+## Description
 Let's continue with a char variable. Same as the previous exercise, but this time create a char variable containing a letter.
 
 Replace/Complete the following code. Create a variable with (if needed) the right type.
 (The XX is what you need to replace)
 
-Function prototype (ruby)
-
+## Function prototype (ruby)
+```
 XX = 'c'
 puts(my_letter)
-Example 00
-
+```
+## Example 00
+```
 Input: 
 Output: c
 
 Return Value: nil
+```
 Ruby Quest01	My First Variable String
 Submit directory	ex03
 Submit file	my_first_variable_string.rb
