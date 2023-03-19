@@ -132,7 +132,7 @@ XX = ',';
 
 puts("Hello #{my_name}#{my_comma} I'm #{my_age} years old.")
 Example 00
-
+```
 Input: 
 Output: Hello Luke, I'm 34 years old.
 
@@ -145,9 +145,9 @@ Incrementation and decrementation depending on the language, it's either ++ (--)
 
 Replace/Complete the following code.
 (The XX is what you need to replace)
-
+```
 Function prototype (ruby)
-
+```
 my_index = 0
 // replace this comment with an increment
 puts(my_index)
@@ -158,7 +158,8 @@ puts(my_index)
 // replace this comment with an increment
 // replace this comment with an increment
 puts(my_index)
-Example 00
+```
+## Example 00
 
 Input: 
 Output: 1
@@ -175,7 +176,7 @@ If statements linked to else statements are part of the fundamentals of coding. 
 A condition controls which part of your code is executed. if contains what to do if the condition is true, and else contains what to do if the condition is not met.
 
 An example:
-
+```
 let earth_is_flat = false;
 
 if earth_is_flat {
@@ -185,9 +186,9 @@ if earth_is_flat {
 }
 Replace/Complete the following code so that we know whether 10 is less than or greater than 20.
 (The XX is what you need to replace)
-
+```
 Function prototype (ruby)
-
+```
 nbr = 10
 
 if (XX)
@@ -195,9 +196,11 @@ if (XX)
 else
   puts("nbr is less than 20")
 end
-Example 00
-
+```
+## Example 00
+```
 Input: 
 Output: nbr is less than 20
 
 Return Value: nil
+```
