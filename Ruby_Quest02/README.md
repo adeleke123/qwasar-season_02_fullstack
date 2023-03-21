@@ -1,4 +1,4 @@
-Ruby Quest02
+## Ruby Quest02
 Remember to git add && git commit && git push each exercise!
 
 We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
@@ -86,7 +86,7 @@ while (XX)
   XX
 end
 Example 00
-
+```
 Input: 
 Output: I want to code
 I want to code
@@ -188,7 +188,7 @@ I want to code
 I want to code
 I want to code
 I want to code
-
+```
 Return Value: nil
 Ruby Quest02	My First Param Function
 Submit directory	ex03
@@ -204,7 +204,7 @@ Replace/Complete the following code.
 (The XX is what you need to replace)
 
 Function prototype (ruby)
-
+```
 // function will puts("detonation in... #{seconds_left} secondes.")
 
 timer = 10
@@ -213,8 +213,9 @@ while (XX)
   detonation_in(timer)
   XX
 end
-Example 00
-
+```
+## Example 00
+```
 Input: 
 Output: detonation in... 10 seconds.
 detonation in... 9 seconds.
@@ -226,7 +227,7 @@ detonation in... 4 seconds.
 detonation in... 3 seconds.
 detonation in... 2 seconds.
 detonation in... 1 seconds.
-
+```
 Return Value: nil
 Ruby Quest02	My First Return Function
 Submit directory	ex04
