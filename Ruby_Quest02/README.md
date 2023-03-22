@@ -21,7 +21,7 @@ Replace/Complete the following code.
 (The XX is what you need to replace)
 
 Function prototype (ruby)
-
+```
 a = 10
 b = 9
 c = 11
@@ -36,13 +36,15 @@ end
 if (XX)
   puts("z OR y are bigger than a")
 end
-Example 00
-
+```
+## Example 00
+```
 Input: 
 Output: a is bigger than b AND smaller than c AND equal to d
 z OR y are bigger than a
 
 Return Value: nil
+```
 Ruby Quest02	My First Function
 Submit directory	ex01
 Submit file	my_first_function.rb
