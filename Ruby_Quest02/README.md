@@ -8,6 +8,7 @@ For each exercise, you will have to create a folder and in this folder, you will
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 | Ruby Quest02	| My First If Multiple Conditions |
+| ------------- | ------------------------------- |
 | Submit directory	| ex00 |
 | `Submit file` |	`my_first_if_multiple_conditions.rb` |
 
