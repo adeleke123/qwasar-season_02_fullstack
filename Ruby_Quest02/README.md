@@ -7,10 +7,11 @@ For each exercise, you will have to create a folder and in this folder, you will
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ruby Quest02	My First If Multiple Conditions
-Submit directory	ex00
-Submit file	my_first_if_multiple_conditions.rb
-Description
+| Ruby Quest02	| My First If Multiple Conditions |
+| Submit directory	| ex00 |
+| `Submit file` |	`my_first_if_multiple_conditions.rb` |
+
+## Description
 if conditions are linked to else statements and writing the correct condition can be quite complicated :D.
 
 Your assignment is to write the correct conditions inside the if statements below in order to render the 2 print statements true!
