@@ -45,10 +45,12 @@ z OR y are bigger than a
 
 Return Value: nil
 ```
-Ruby Quest02	My First Function
-Submit directory	ex01
-Submit file	my_first_function.rb
-Description
+| Ruby Quest02	| My First Function |
+| ------------- | ----------------- |
+| Submit directory | ex01 |
+| `Submit file` |	`my_first_function.rb`|
+
+## Description
 The syntax is only a small part of what you need to learn to write quality code.
 Software Architecture (Designing Software) is really the core part of each project and being a good engineer.
 
