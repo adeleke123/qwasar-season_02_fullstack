@@ -1,5 +1,5 @@
 This track contain the following
-+ Bootcamp Ruby
++ Ruby Bootcamp
 + My Css Is Easy I
 + My Green Wordpress
 + My Select Query
