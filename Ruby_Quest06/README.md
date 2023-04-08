@@ -1,4 +1,4 @@
-Ruby Quest06
+### Ruby Quest06
 Remember to git add && git commit && git push each exercise!
 
 We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
@@ -22,7 +22,8 @@ Your function will return an array (line) of arrays (columns).
 
 In this assignment, you will have to determine how to transform a string into an array.
 
-Function prototype (ruby)
+### Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_csv_parser
@@ -38,13 +39,15 @@ Function prototype (ruby)
 def my_csv_parser(param_1, param_2)
 
 end
-Example 00
-
+```
+### Example 00
+```
 Input: "a,b,c,e\n1,2,3,4\n" && ","
 Output: 
 Return Value: [["a", "b", "c", "e"], ["1", "2", "3", "4"]]
-Tip
-
+```
+### Tip
+```
 lines = "column1,column2,column3\nvalue1,value2,value3\n".split("\n");
 console.log(lines);
 
@@ -53,6 +56,7 @@ var index = 0;
 while (index < lines.length) {
   var values = lines[index].split(',');
 }
+```
 Ruby Quest06	My Data Transform
 Submit directory	ex01
 Submit file	my_data_transform.rb
@@ -77,7 +81,8 @@ Order At is a little more tricky.
 Your function will be prototyped: def my_data_transform(csv_content)
 It will take a string which contains data in CSV format and it will return an array of strings in CSV format with the column Email, Age and Order At transformed.
 
-Function prototype (ruby)
+### Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_data_transform
@@ -92,12 +97,15 @@ Function prototype (ruby)
 def my_data_transform(param_1)
 
 end
-Example 00
+```
+### Example 00
+```
 
 Input: "Gender,FirstName,LastName,UserName,Email,Age,City,Device,Coffee Quantity,Order At\nMale,Carl,Wilderman,carl,wilderman_carl@yahoo.com,29,Seattle,Safari iPhone,2,2020-03-06 16:37:56\nMale,Marvin,Lind,marvin,marvin_lind@hotmail.com,77,Detroit,Chrome Android,2,2020-03-02 13:55:51\nFemale,Shanelle,Marquardt,shanelle,marquardt.shanelle@hotmail.com,21,Las Vegas,Chrome,1,2020-03-05 17:53:05\nFemale,Lavonne,Romaguera,lavonne,romaguera.lavonne@yahoo.com,81,Seattle,Chrome,2,2020-03-04 10:33:53\nMale,Derick,McLaughlin,derick,mclaughlin.derick@hotmail.com,47,Chicago,Chrome Android,1,2020-03-05 15:19:48\n"
 Output: ["Gender,FirstName,LastName,UserName,Email,Age,City,Device,Coffee Quantity,Order At", "Male,Carl,Wilderman,carl,yahoo.com,21->40,Seattle,Safari iPhone,2,afternoon", "Male,Marvin,Lind,marvin,hotmail.com,66->99,Detroit,Chrome Android,2,afternoon", "Female,Shanelle,Marquardt,shanelle,hotmail.com,21->40,Las Vegas,Chrome,1,afternoon", "Female,Lavonne,Romaguera,lavonne,yahoo.com,66->99,Seattle,Chrome,2,morning", "Male,Derick,McLaughlin,derick,hotmail.com,41->65,Chicago,Chrome Android,1,afternoon"]
+```
 Tip
-(In Ruby)
++ (In Ruby)
 You should use object DateTime :-)
 
 DateTime.parse('2020-03-06 16:37:56', '%Y-%m-%d %H:%M:%S')
@@ -117,7 +125,8 @@ Here is our second step: data transformation. This exercise follows step one.
 You will receive the output of your function my_data_transform.
 
 Our function will group the data and it will become a Hash of hash. (Wow.)
-Example:
+### Example:
+```
 "{'Gender': {'Male': 22, 'Female': 21}, 'Email': {'yahoo.com': 3, 'hotmail.com': 2}, ...}"
 
 We will discard the column FirstName, LastName, UserName and Coffee Quantity from our output.
@@ -128,8 +137,9 @@ It will take a string array which is the output of your function my_data_transfo
 Order of Column will be the order they are in the header of the CSV (Gender first then Email, etc)
 Order of the Value will be the order they appear in each line from top left.
 Use STRINGS as keys (=> Do not use any symbol or any fancy things. It doesn't translate well in json. (no :Age => "Age"))
-
+```
 Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_data_process
@@ -144,8 +154,10 @@ Function prototype (ruby)
 def my_data_process(param_1)
 
 end
-Example 00
-
+```
+### Example 00
+```
 Input: ["Gender,FirstName,LastName,UserName,Email,Age,City,Device,Coffee Quantity,Order At", "Male,Carl,Wilderman,carl,yahoo.com,21->40,Seattle,Safari iPhone,2,afternoon", "Male,Marvin,Lind,marvin,hotmail.com,66->99,Detroit,Chrome Android,2,afternoon", "Female,Shanelle,Marquardt,shanelle,hotmail.com,21->40,Las Vegas,Chrome,1,afternoon", "Female,Lavonne,Romaguera,lavonne,yahoo.com,66->99,Seattle,Chrome,2,morning", "Male,Derick,McLaughlin,derick,hotmail.com,41->65,Chicago,Chrome Android,1,afternoon"]
 Output:
 '{"Gender":{"Male":3,"Female":2},"Email":{"yahoo.com":2,"hotmail.com":3},"Age":{"21->40":2,"66->99":2,"41->65":1},"City":{"Seattle":2,"Detroit":1,"Las Vegas":1,"Chicago":1},"Device":{"Safari iPhone":1,"Chrome Android":2,"Chrome":2},"Order At":{"afternoon":4,"morning":1}}'
+```
