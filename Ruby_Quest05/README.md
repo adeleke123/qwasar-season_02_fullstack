@@ -106,15 +106,18 @@ Tips
 + Google for YOURCODINGLANGUAGE
 + Google array YOURCODINGLANGUAGE
 
-Ruby Quest05	My Count On It
-Submit directory	ex02
-Submit file	my_count_on_it.rb
-Description
+| Ruby Quest05	| My Count On It |
+| ------------- | -------------- |
+| Submit directory	| ex02 |
+| Submit file	| my_count_on_it.rb |
+
+### Description
 Count the size of each elements in an array.
 
 Create a function my_count_on_it that receives a string array as a parameter and returns an array with the length of each string.
 
-Function prototype (ruby)
+### Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_count_on_it
@@ -129,35 +132,42 @@ Function prototype (ruby)
 def my_count_on_it(param_1)
 
 end
-Example 00
-
+```
+### Example 00
+```
 Input: ["This", "is", "the", "way"]
 Output: 
 Return Value: [4, 2, 3, 3]
-Example 01
-
+```
+### Example 01
+```
 Input: ["aBc", "AbcE Fgef1"]
 Output: 
 Return Value: [3, 10]
-Example 02
-
+```
+### Example 02
+```
 Input: ["aBc"]
 Output: 
 Return Value: [3]
+```
 Tips
-Google while YOURCODINGLANGUAGE
-Google for YOURCODINGLANGUAGE
-Google array.length YOURCODINGLANGUAGE
++ Google while YOURCODINGLANGUAGE
++ Google for YOURCODINGLANGUAGE
++ Google array.length YOURCODINGLANGUAGE
 
-Ruby Quest05	My Array Uniq
-Submit directory	ex03
-Submit file	my_array_uniq.rb
-Description
+| Ruby Quest05	| My Array Uniq |
+| ------------- | ------------- |
+| Submit directory	| ex03 |
+| Submit file	| my_array_uniq.rb |
+
+### Description
 Create an array without any duplicates.
 
 Create a function my_array_uniq that receives an integer array as a parameter and returns an array with those integers but without any duplicates.
 
-Function prototype (ruby)
+### Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_array_uniq
@@ -172,23 +182,27 @@ Function prototype (ruby)
 def my_array_uniq(param_1)
 
 end
-Example 00
-
+```
+### Example 00
+```
 Input: [1, 1, 2]
 Output: 
 Return Value: [1, 2]
-Example 01
-
+```
+### Example 01
+```
 Input: []
 Output: 
 Return Value: []
-Example 02
-
+```
+### Example 02
+```
 Input: [1, 1, 1, 2, 3, 4, 1]
 Output: 
 Return Value: [1, 2, 3, 4]
+```
 Tip
-Google filter/uniq YOURCODINGLANGUAGE
++ Google filter/uniq YOURCODINGLANGUAGE
 
 Ruby Quest05	My Is Sort
 Submit directory	ex04
