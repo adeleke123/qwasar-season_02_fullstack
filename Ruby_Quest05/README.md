@@ -204,10 +204,12 @@ Return Value: [1, 2, 3, 4]
 Tip
 + Google filter/uniq YOURCODINGLANGUAGE
 
-Ruby Quest05	My Is Sort
-Submit directory	ex04
-Submit file	my_is_sort.rb
-Description
+| Ruby Quest05	| My Is Sort |
+| ------------- | ---------- |
+| Submit directory	| ex04 |
+| `Submit file`	| `my_is_sort.rb` |
+
+### Description
 Let's create a function which will tell us if an array is sorted or not. What is sorted? :-)
 
 Write a function that takes an integer array as a parameter (input) and returns a boolean (true/false).
@@ -218,7 +220,8 @@ Your function should return false if the integer array is not sorted.
 Numbers will be from -2_000_000 to 2_000_000
 The array might have duplicates.
 
-Function prototype (ruby)
+### Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_is_sort
@@ -233,26 +236,31 @@ Function prototype (ruby)
 def my_is_sort(param_1)
 
 end
-Example 00
-
+```
+### Example 00
+```
 Input: [1, 1, 2]
 Output: 
 Return Value: true
-Example 01
-
+```
+### Example 01
+```
 Input: [2, 1, -1]
 Output: 
 Return Value: true
-Example 02
-
+```
+### Example 02
+```
 Input: [4, 7, 0, 3]
 Output: 
 Return Value: false
-Example 03
-
+```
+### Example 03
+```
 Input: []
 Output: 
 Return Value: true
+```
 Tips
-Google: what is a Boolean
-Google: sort ascending
++ Google: what is a Boolean
++ Google: sort ascending
