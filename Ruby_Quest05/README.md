@@ -1,4 +1,4 @@
-Ruby Quest05
+###  Ruby Quest05
 Remember to git add && git commit && git push each exercise!
 
 We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
@@ -14,7 +14,8 @@ Time to print each element of an array.
 Create a my_each function that receives an array of strings as a parameter and iterates through the array. Use a function to print each value.
 This function returns nothing.
 
-Function prototype (ruby)
+### Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_each
@@ -28,6 +29,7 @@ Function prototype (ruby)
 def my_each(param_1)
 
 end
+```
 Example 00
 
 Input: ["blah1", "blah2", "blah3"]
