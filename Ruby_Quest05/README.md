@@ -61,15 +61,19 @@ Tips
 + Google for YOURCODINGLANGUAGE
 + Google array.length YOURCODINGLANGUAGE
 
-Ruby Quest05	My Map Mult Two
-Submit directory	ex01
-Submit file	my_map_mult_two.rb
-Description
+| Ruby Quest05	| My Map Mult Two |
+| ------------- | --------------- |
+| Submit directory	| ex01 |
+| `Submit file`	| `my_map_mult_two.rb` |
+
+### Description
+
 Multiply each element of an array by 2.
 
 Create a function my_map_mult_two that receives an integer array as a parameter and iterates over the array. Perform a multiplication by 2 on each value and return the new array collected.
 
-Function prototype (ruby)
+### Function prototype (ruby)
+```
 ##
 ##
 ## QWASAR.IO -- my_map_mult_two
@@ -84,20 +88,23 @@ Function prototype (ruby)
 def my_map_mult_two(param_1)
 
 end
-Example 00
-
+```
+### Example 00
+```
 Input: [1, 2, 3, 4, 5]
 Output: 
 Return Value: [2, 4, 6, 8, 10]
-Example 01
-
+```
+### Example 01
+```
 Input: []
 Output: 
 Return Value: []
+```
 Tips
-Google while YOURCODINGLANGUAGE
-Google for YOURCODINGLANGUAGE
-Google array YOURCODINGLANGUAGE
++ Google while YOURCODINGLANGUAGE
++ Google for YOURCODINGLANGUAGE
++ Google array YOURCODINGLANGUAGE
 
 Ruby Quest05	My Count On It
 Submit directory	ex02
