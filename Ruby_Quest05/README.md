@@ -32,31 +32,34 @@ def my_each(param_1)
 
 end
 ```
-Example 00
-
+### Example 00
+```
 Input: ["blah1", "blah2", "blah3"]
 Output: blah1
 blah2
 blah3
 
 Return Value: nil
-Example 01
-
+```
+### Example 01
+```
 Input: ["blah1", "blah2"]
 Output: blah1
 blah2
 
 Return Value: nil
-Example 02
-
+```
+### Example 02
+```
 Input: ["1arg"]
 Output: 1arg
 
 Return Value: nil
+```
 Tips
-Google while YOURCODINGLANGUAGE
-Google for YOURCODINGLANGUAGE
-Google array.length YOURCODINGLANGUAGE
++ Google while YOURCODINGLANGUAGE
++ Google for YOURCODINGLANGUAGE
++ Google array.length YOURCODINGLANGUAGE
 
 Ruby Quest05	My Map Mult Two
 Submit directory	ex01
