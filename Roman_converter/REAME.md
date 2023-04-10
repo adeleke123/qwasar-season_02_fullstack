@@ -5,12 +5,17 @@ We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S
 
 For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under submit directory and specific file names for each exercise are also provided at the beginning of each exercise under submit file(s).
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 | My Roman Numerals Converter	|     |
 | --------------------------- | --- |
 | Submit directory	| ex00 |
 | Submit file	| my_roman_numerals_converter* |
 | Languages	| It needs to be completed in the language you are working on right now. If you are doing Bootcamp Javascript, then javascript (file extension will be .js). If you are doing Bootcamp Ruby, then Ruby (file extension will be .rb). It goes the same for Python, Java, C++, Rust, ...| 
-Description
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Description
 Write a function to convert normal numbers to Roman Numerals.
 
 The Romans wrote numbers using letters - I, V, X, L, C, D, M. (notice these letters have lots of straight lines and are hence easy to carve into stone tablets).
