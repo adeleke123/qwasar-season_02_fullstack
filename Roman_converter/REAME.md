@@ -19,10 +19,11 @@ For each exercise, you will have to create a folder and in this folder, you will
 Write a function to convert normal numbers to Roman Numerals.
 
 The Romans wrote numbers using letters - I, V, X, L, C, D, M. (notice these letters have lots of straight lines and are hence easy to carve into stone tablets).
-
+```
  1  => I
 10  => X
  7  => VII
+ ```
 There is no need to be able to convert numbers larger than about 3000.
 (The Romans themselves didn't tend to go any higher)
 
@@ -47,23 +48,27 @@ See also: http://www.novaroma.org/via_romana/numbers.html
 
 It will return a string with the roman numeral.
 
-Example 00
-
+### Example 00
+```
 Input: 14
 Output: 
 Return Value: "XIV"
-Example 01
-
+```
+### Example 01
+```
 Input: 79
 Output: 
 Return Value: "LXXIX"
-Example 02
-
+```
+### Example 02
+```
 Input: 845
 Output: 
 Return Value: "DCCCXLV"
-Example 03
-
+```
+### Example 03
+```
 Input: 2022
 Output: 
 Return Value: "MMXXII"
+```
